@@ -1,0 +1,57 @@
+﻿body {
+}
+/*JUMBOTRON*/
+.jumbotron {
+    background-image: url('images/tuscany-villas-sant-anna.jpg');
+    background-size: cover;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 348px;
+    color: antiquewhite;
+    font-family: 'Dancing Script', cursive;
+    font-size: 120px;
+    text-align:center;
+}
+
+.otherPic {
+    background-size: cover;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    height: 400px;
+}
+
+
+
+
+/*EACH CELL WITH PICS*/
+.row1 {
+    height: 400px;
+}
+
+#cell1 {
+    background-image: url('images/3b-348x348.jpg');
+    background-size:cover;
+    height: 400px;
+}
+
+#cell3 {
+    background-image: url('images/42-348x348.jpg');
+    background-size: cover;
+    height: 400px;
+}
+
+.row2 {
+    height: 400px;
+}
+
+#cell5 {
+    background-image: url('images/314-348x348.jpg');
+    background-size: cover;
+    height: 400px;
+}
+
+
+
+.row3 {
+    height: 400px;
+}
