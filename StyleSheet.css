@@ -1,7 +1,20 @@
 ﻿body {
 }
+.nav {
+    background-color: #474E5D;
+}
+
+#logoNav a {
+    background-color: #474E5D;
+}
+
+/*#logoNav{
+    background-color: #474E5D;
+}*/
+
+
 /*JUMBOTRON*/
-.jumbotron {
+#picture.jumbotron {
     background-image: url('images/tuscany-villas-sant-anna.jpg');
     background-size: cover;
     margin: 0px 0px 0px 0px;
@@ -9,7 +22,7 @@
     height: 348px;
     color: antiquewhite;
     font-family: 'Dancing Script', cursive;
-    font-size: 120px;
+    font-size: 200px;
     text-align:center;
 }
 
@@ -20,38 +33,173 @@
     height: 400px;
 }
 
+/*GREENLAND*/
+#greenlandText {
+    margin: 0px 0px 0px 0px;
+    padding: 120px 0px 0px 0px;
+    height: 348px;
+}
 
+.picGreen {
+    margin: 0px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
+    height: 300px;
+}
 
+/*MODERN*/
+#modernText {
+    margin: 0px 0px 0px 0px;
+    padding: 120px 0px 0px 0px;
+    height: 348px;
+    background-color: #474E5D;
+}
+
+#picMod {
+    margin: 0px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
+    height: 300px;
+    background-color: #474E5D;
+    color: white;
+}
+
+.modernRow {
+    background-color: #474E5D;
+    color: white;
+}
+
+.buttonMod {
+    color: #474E5D;
+}
+
+/*PLAINS*/
+#plainsText {
+    margin: 0px 0px 0px 0px;
+    padding: 120px 0px 0px 0px;
+    height: 348px;
+}
+
+#picPlains {
+    margin: 0px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
+    height: 300px;
+    
+}
+
+/*rgb(71,78,93)*/
+
+/*LOCATION BAR*/
+#loc.jumbotron {
+    margin: 0px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
+    background-color: #474E5D;
+    color: white;
+    text-align:center; 
+    background-color: none;
+}
+
+.grid {
+    margin: 80px 0px 80px 0px;
+}
 
 /*EACH CELL WITH PICS*/
-.row1 {
+.row1, .row2, .row3 {
     height: 400px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: none;
+    border-width: 0px;
+    text-align:center;
+    color:antiquewhite;
+    font-size: 28px;
+}
+
+.buttonBig {
+   background-color: rgba(71,78,93, 0.75);
+   border: none;
+   padding: 20px 15px 20px 15px; 
+   color: white;
+   margin: 0px 100px 0px 100px;
+}
+
+.buttonSmall {
+   background-color: rgba(71,78,93, 0.75);
+   border: none;
+   padding: 10px 10px 10px 10px; 
+   
+   font-size: 16px;
+      color: white;
 }
 
 #cell1 {
     background-image: url('images/3b-348x348.jpg');
     background-size:cover;
     height: 400px;
+    padding: 150px 0px 0px 0px;
+    
+}
+
+#cell2 {
+    padding: 0px 0px 150px 0px;
+    
 }
 
 #cell3 {
     background-image: url('images/42-348x348.jpg');
     background-size: cover;
     height: 400px;
+    padding: 150px 0px 150px 0px;
 }
 
-.row2 {
+#cell4 {
+    background-size: cover;
     height: 400px;
+    text-align: center;
+    padding: 0px 0px 150px 0px;
 }
 
 #cell5 {
     background-image: url('images/314-348x348.jpg');
     background-size: cover;
     height: 400px;
+    padding: 150px 0px 0px 0px;
 }
 
-
-
-.row3 {
+#cell6 {
+    background-size: cover;
     height: 400px;
+    text-align: center;
+    padding: 0px 0px 150px 0px;
 }
+
+/*.row3 {
+    height: 400px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    border: none;
+    border-width: 0px;
+}*/
+
+#cell7 {
+    background-image: url('images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding: 150px 0px 0px 0px;
+}
+
+#cell8 {
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+}
+
+#cell9 {
+    background-image: url('images/Villa-Vanna-231-348x348.jpg');
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    padding: 150px 0px 0px 0px;
+}
+
+

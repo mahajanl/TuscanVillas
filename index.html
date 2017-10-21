@@ -6,67 +6,176 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
     <link href="StyleSheet.css" rel="stylesheet" />
 	<meta charset="utf-8" />
 </head>
 <body>
 
-    
-    <nav class="navbar  navbar-static-top" id="navBar">
-        <div class="container">
+ 
+    <nav class="navbar navbar-default" id="#logoNav">
+        <div class="container-fluid">
             <div class="navbar-header">
                 <div style="float:left">
-                    <ul class="nav navbar-nav">
-                        <li>LOGO</li>
-                    </ul>
+                    
+                        <a class="navbar-brand" href="#">LOGO</a>
+                    
                 </div>
             </div>
-            <div id="navbar" class="navbar-collapse collapse">
-                <div style="float:right">
-                    <ul class="nav navbar-nav">
-                        <li class="active"><a href="#">Home</a></li>
-                        <li><a href="#location">Location</a></li>
-                        <li><a href="#amenities">Amenities</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li><a href="http://www.lifeisstrange.com/talk" target="_blank">PLACEHOLDER</a></li>
-                    </ul>
-                </div>
-            </div>
+        <div style="float:right">
+    <ul class="nav navbar-nav" id="rightNav">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Amenities</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Location</a></li>
+    </ul>
+           </div>
         </div>
     </nav>
 
+
 <!--JUMBOTRON-->
     <div class="row container-fluid">
-        <div class="jumbotron col-md-9 introPic">
+        <div class="jumbotron col-md-9 introPic" id="picture">
                 <h1 class="title">Tuscan Villas</h1>
-                <p class="title">We specialize in relaxation</p>
+                <p class="subtitle">We specialize in relaxation</p>
         </div>
+
         <div class="otherPic col-md-3">
             <img src="images/Versilia.jpg" /> 
         </div>
+
+        <div class="row container-fluid">
+           <div class="jumbotron" id="loc">
+               <h2 class="title">LOCATIONS</h2>
+               <p class="locSubtitle">Some places for you to go</p>
+           </div>
+        </div>
+    </div>
+
+<!--Location 1 greenland -->
+    <div class="greenlandRow grid container-fluid">
+        <div class="rowGreen">
+            <div class="col-md-8" id="greenlandText">
+                <p id="greenTitle">Greenland</p>
+                <p>Come and see the beautiful rolling landscapes of Greenland from the cozy haven of your top-of-the-line accomodations</p>
+                <p><button class="buttonSmall">Reserve Now!</button></p>
+            </div>
+                <div class="col-md-4">
+                    <img class="picGreen" src="images/italy-mountain-villa.jpeg" />
+
+                </div>
+        </div>
+    </div>
+
+    <!--LOCATION 2 SOME MODERN LOOKING UGLY STUFF-->
+    <div class="modernRow grid container-fluid">
+        <div class="rowMod">
+            <div class="col-md-8" >
+                <img id="picMod" src="images/modern-villa.jpeg" />
+            </div>
+
+            <div class="col-md-4" id="modernText">
+                <p id="modTitle">Modern Landscapes</p>
+                <p>Live in the lap of luxury within the modern conveniences of the 21st century</p>
+                <p><button class="buttonMod">Reserve Now!</button></p>
+            </div>
+
+        </div>
+    </div>
+
+    <!--Location 3 Plains -->
+    <div class="plainsRow grid container-fluid">
+        <div class="rowplains">
+            <div class="col-md-8" id="plainsText">
+                <p id="plainsTitle">American Plains</p>
+                <p>Come and see the incredible rolling landscapes of the Americas</p>
+                <p><button class="buttonSmall">Reserve Now!</button></p>
+            </div>
+            <div class="col-md-4" id="plainsRow">
+                <img id="picPlains" src="images/tuscany-grape-field-nature-51947.jpeg" />
+
+            </div>
+        </div>
+    </div>
+    
+    <!--AMENITIES-->
+
+    <div class="row container-fluid">
+        <div class="jumbotron" id="loc">
+            <h2 class="title">AMENITIES</h2>
+            <p class="locSubtitle">Some stuff for you to enjoy</p>
+        </div>
     </div>
 
 
-<!--BIG GRID OF PICS AND BUTTONS - everyone has an ID-->
-    <div class="row">
-        <div class="col-md-4" id="cell1"> <h3> RECEPTIONS</h3>  </div>
-        <div class="col-md-4" id="cell2"> <h3>  Check it out!</h3>  </div>
-        <div class="col-md-4" id="cell3"> <h3> Relax by the pool! </button> </div>
+ <!--BIG GRID OF PICS AND BUTTONS - everyone has an ID-->
+    <div class="grid container-fluid">
+        <div class="row1">
+            <div class="col-md-4" id="cell1"> <button class="buttonBig" > RECEPTIONS</button>  </div>
+            <div class="col-md-4" id="cell2"> <p>A VILLA FOR EVERY OCCASION</p> <button class="buttonSmall">  Check it out!</button>  </div>
+            <div class="col-md-4" id="cell3"> <button class="buttonBig"> RELAX BY THE POOL </button> </div>
+        </div>
+
+        <div class="row2">
+            <div class="col-md-4" id="cell4"> <p>WHAT SETS US APART</p><button class="buttonSmall">Check it out!</button> </div>
+            <div class="col-md-4" id="cell5"> <button class="buttonBig" >FEELS LIKE HOME</button></div>
+            <div class="col-md-4" id="cell6"> <p>TALK TO STAFF</p><button class="buttonSmall">Check it out!</button></div>
+        </div>
+
+        <div class="row3">
+            <div class="col-md-4" id="cell7">  <button class="buttonBig" >ENJOY THE VIEWS</button></div>
+            <div class="col-md-4" id="cell8">  <button class="buttonSmall">Check it out!</button></div>
+            <div class="col-md-4" id="cell9">  <button class="buttonBig">PRIVATE DINING</button></div>
+        </div>
     </div>
 
-    <div class="row2">
-        <div class="col-md-4" id="cell4"> <h3>Check it out! </button></div>
-        <div class="col-md-4" id="cell5">  </div>
-        <div class="col-md-4" id="cell6"> <h3>Check it out!</button> </div>
+    <div class="row container-fluid">
+        <div class="jumbotron" id="loc">
+            <h2 class="title">REVIEWS</h2>
+            <p class="locSubtitle">What our customers say</p>
+        </div>
     </div>
 
-    <div class="row3">
-        <div class="col-md-4" id="cell7">  </div>
-        <div class="col-md-4" id="cell8"> <button> Check it out! </button> </div>
-        <div class="col-md-4" id="cell9">  </div>
+
+<!--CAROUSEL-->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <p>Tuscan Villas are always so much fun!</p>
+                <p>Brooksy, professional artist</p>
+            </div>
+
+            <div class="item">
+                <p>Best bed I've ever ruined!</p>
+                <p>Anonymous</p>
+            </div>
+
+            <div class="item">
+                <p>Simply lovely!</p>
+                <p>HP Lovecraft</p>
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
     </div>
- 
 
 </body>
 </html>
