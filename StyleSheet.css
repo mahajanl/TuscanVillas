@@ -1,13 +1,42 @@
 ﻿body {
 }
-.nav {
+/*NAVBAR REDO 4*/
+
+nav#navvy.navbar.navbar-static-top {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    background-color: #474E5D;
+}
+#navvy a {
+    color: white;
+}
+    #navvy a:hover {
+        background: none;
+    }
+
+/*button thing*/
+button.navbar-toggle {
+    border: 1px solid #474E5D;
+}
+
+span.icon-bar {
+    border: 1px solid #474E5D;
+}
+
+
+/*/*NAVBAR AGAIN*/
+/*.nav {
     background-color: #474E5D;
 }
 
 #logoNav a {
     background-color: #474E5D;
-}
+    }
+*/
 
+
+/*NAVBAR*/
 /*#logoNav{
     background-color: #474E5D;
 }*/
@@ -20,8 +49,8 @@
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
     height: 348px;
-    color: antiquewhite;
-    font-family: 'Dancing Script', cursive;
+    color: white;
+    
     font-size: 200px;
     text-align:center;
 }
@@ -33,10 +62,15 @@
     height: 400px;
 }
 
+.locTitle {
+    font-size: 26px;
+
+}
+
 /*GREENLAND*/
 #greenlandText {
     margin: 0px 0px 0px 0px;
-    padding: 120px 0px 0px 0px;
+    padding: 120px 0px 0px 20px;
     height: 348px;
 }
 
@@ -44,6 +78,10 @@
     margin: 0px 0px 0px 0px;
     padding: 40px 0px 0px 0px;
     height: 300px;
+}
+
+.rowGreen {
+    color: #474E5D;
 }
 
 /*MODERN*/
@@ -74,7 +112,7 @@
 /*PLAINS*/
 #plainsText {
     margin: 0px 0px 0px 0px;
-    padding: 120px 0px 0px 0px;
+    padding: 120px 0px 0px 20px;
     height: 348px;
 }
 
@@ -83,6 +121,10 @@
     padding: 40px 0px 0px 0px;
     height: 300px;
     
+}
+
+.rowPlains {
+    color:#474E5D;
 }
 
 /*rgb(71,78,93)*/
@@ -139,8 +181,12 @@
 }
 
 #cell2 {
-    padding: 0px 0px 150px 0px;
-    
+    padding: 20px 0px 0px 0px;
+    color: #474E5D;
+}
+
+.occasion {
+    font-size: 14px;
 }
 
 #cell3 {
@@ -154,7 +200,8 @@
     background-size: cover;
     height: 400px;
     text-align: center;
-    padding: 0px 0px 150px 0px;
+    padding: 20px 0px 0px 0px;
+    color: #474E5D;
 }
 
 #cell5 {
@@ -168,16 +215,10 @@
     background-size: cover;
     height: 400px;
     text-align: center;
-    padding: 0px 0px 150px 0px;
+    padding: 20px 0px 0px 0px;
+    color: #474E5D;
 }
 
-/*.row3 {
-    height: 400px;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-    border: none;
-    border-width: 0px;
-}*/
 
 #cell7 {
     background-image: url('images/Villa-Rucellai-Toscani-2812-2-348x348.jpg');
@@ -191,7 +232,8 @@
     background-size: cover;
     height: 400px;
     text-align: center;
-    padding: 0px 0px 0px 0px;
+    padding: 20px 0px 0px 0px;
+    color: #474E5D;
 }
 
 #cell9 {
@@ -202,4 +244,8 @@
     padding: 150px 0px 0px 0px;
 }
 
-
+.carousel-inner {
+    height: 220px;
+    text-align: center;
+    padding: 80px;
+}
