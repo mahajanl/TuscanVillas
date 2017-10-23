@@ -152,13 +152,13 @@ span.icon-bar {
     border-width: 0px;
     text-align:center;
     color:antiquewhite;
-    font-size: 28px;
+    font-size: 22px;
 }
 
 .buttonBig {
    background-color: rgba(71,78,93, 0.75);
    border: none;
-   padding: 20px 15px 20px 15px; 
+   padding: 15px 10px 15px 10px; 
    color: white;
    margin: 0px 100px 0px 100px;
 }
@@ -168,7 +168,7 @@ span.icon-bar {
    border: none;
    padding: 10px 10px 10px 10px; 
    
-   font-size: 16px;
+   font-size: 13px;
       color: white;
 }
 
@@ -207,7 +207,7 @@ span.icon-bar {
 #cell5 {
     background-image: url('images/314-348x348.jpg');
     background-size: cover;
-    height: 400px;
+    height: 100%;
     padding: 150px 0px 0px 0px;
 }
 
@@ -247,5 +247,21 @@ span.icon-bar {
 .carousel-inner {
     height: 220px;
     text-align: center;
-    padding: 80px;
+    padding: 60px;
+    font-family: 'Dancing Script';
+    font-size: 20px;
+}
+
+.carousel-indicators li {
+    background-color: black;
+}
+
+.contactForm {
+    margin: 40px 0px 0px 0px;
+}
+
+.footer {
+    background-color: #474E5D;
+    color: white;
+    font-size: 10px;
 }
