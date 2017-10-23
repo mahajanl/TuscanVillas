@@ -1,4 +1,5 @@
 ﻿body {
+    font-family: 'Roboto', sans-serif;
 }
 /*NAVBAR REDO 4*/
 
@@ -7,21 +8,26 @@ nav#navvy.navbar.navbar-static-top {
     margin-bottom: 0px;
     color: white;
     background-color: #474E5D;
+    font-family: 'Roboto', sans-serif;
 }
 #navvy a {
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
     #navvy a:hover {
         background: none;
+        font-family: 'Roboto', sans-serif;
     }
 
 /*button thing*/
 button.navbar-toggle {
     border: 1px solid #474E5D;
+    font-family: 'Roboto', sans-serif;
 }
 
 span.icon-bar {
     border: 1px solid #474E5D;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -50,7 +56,7 @@ span.icon-bar {
     padding: 0px 0px 0px 0px;
     height: 348px;
     color: white;
-    
+    font-family: 'Roboto', sans-serif;
     font-size: 200px;
     text-align:center;
 }
@@ -64,14 +70,15 @@ span.icon-bar {
 
 .locTitle {
     font-size: 26px;
-
+    font-family: 'Roboto', sans-serif;
 }
 
 /*GREENLAND*/
 #greenlandText {
     margin: 0px 0px 0px 0px;
-    padding: 120px 0px 0px 20px;
+    padding: 60px 0px 0px 20px;
     height: 348px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .picGreen {
@@ -82,14 +89,16 @@ span.icon-bar {
 
 .rowGreen {
     color: #474E5D;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*MODERN*/
 #modernText {
     margin: 0px 0px 0px 0px;
-    padding: 120px 0px 0px 0px;
+    padding: 60px 0px 0px 0px;
     height: 348px;
     background-color: #474E5D;
+    font-family: 'Roboto', sans-serif;
 }
 
 #picMod {
@@ -98,22 +107,26 @@ span.icon-bar {
     height: 300px;
     background-color: #474E5D;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 .modernRow {
     background-color: #474E5D;
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 .buttonMod {
     color: #474E5D;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*PLAINS*/
 #plainsText {
     margin: 0px 0px 0px 0px;
-    padding: 120px 0px 0px 20px;
+    padding: 60px 0px 0px 20px;
     height: 348px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #picPlains {
@@ -125,6 +138,7 @@ span.icon-bar {
 
 .rowPlains {
     color:#474E5D;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*rgb(71,78,93)*/
@@ -137,6 +151,7 @@ span.icon-bar {
     color: white;
     text-align:center; 
     background-color: none;
+    font-family: 'Roboto', sans-serif;
 }
 
 .grid {
@@ -153,6 +168,7 @@ span.icon-bar {
     text-align:center;
     color:antiquewhite;
     font-size: 22px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .buttonBig {
@@ -161,13 +177,14 @@ span.icon-bar {
    padding: 15px 10px 15px 10px; 
    color: white;
    margin: 0px 100px 0px 100px;
+   font-family: 'Roboto', sans-serif;
 }
 
 .buttonSmall {
    background-color: rgba(71,78,93, 0.75);
    border: none;
    padding: 10px 10px 10px 10px; 
-   
+   font-family: 'Roboto', sans-serif;
    font-size: 13px;
       color: white;
 }
@@ -177,16 +194,18 @@ span.icon-bar {
     background-size:cover;
     height: 400px;
     padding: 150px 0px 0px 0px;
-    
+    font-family: 'Roboto', sans-serif;
 }
 
 #cell2 {
-    padding: 20px 0px 0px 0px;
+    padding: 100px 0px 0px 0px;
     color: #474E5D;
+    font-family: 'Roboto', sans-serif;
 }
 
 .occasion {
     font-size: 14px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #cell3 {
@@ -194,14 +213,16 @@ span.icon-bar {
     background-size: cover;
     height: 400px;
     padding: 150px 0px 150px 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #cell4 {
     background-size: cover;
     height: 400px;
     text-align: center;
-    padding: 20px 0px 0px 0px;
+    padding: 100px 0px 0px 0px;
     color: #474E5D;
+    font-family: 'Roboto', sans-serif;
 }
 
 #cell5 {
@@ -209,14 +230,16 @@ span.icon-bar {
     background-size: cover;
     height: 100%;
     padding: 150px 0px 0px 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #cell6 {
     background-size: cover;
     height: 400px;
     text-align: center;
-    padding: 20px 0px 0px 0px;
+    padding: 100px 0px 0px 0px;
     color: #474E5D;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -226,14 +249,16 @@ span.icon-bar {
     height: 400px;
     text-align: center;
     padding: 150px 0px 0px 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 #cell8 {
     background-size: cover;
     height: 400px;
     text-align: center;
-    padding: 20px 0px 0px 0px;
+    padding: 100px 0px 0px 0px;
     color: #474E5D;
+    font-family: 'Roboto', sans-serif;
 }
 
 #cell9 {
@@ -242,6 +267,7 @@ span.icon-bar {
     height: 400px;
     text-align: center;
     padding: 150px 0px 0px 0px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .carousel-inner {
@@ -260,8 +286,9 @@ span.icon-bar {
     margin: 40px 0px 0px 0px;
 }
 
-.footer {
+#footer.jumbotron.footer {
     background-color: #474E5D;
     color: white;
-    font-size: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
